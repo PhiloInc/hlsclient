@@ -18,14 +18,16 @@ The JSON must be something like:
 ::
 
     {
-        "streams": [
-            "nasa": {
-                "input-path": "/msfc/Edge.m3u8",
-                servers: [
-                    "http://liveips.nasa.gov.edgesuite.net"
+       "streams":[
+          {
+             "nasa":{
+                "input-path":"/playlists/x36xhzz/x36xhzz.m3u8",
+                "servers":[
+                   "http://www.streambox.fr"
                 ]
-            }
-        ]
+             }
+          }
+       ]
     }
 
 
